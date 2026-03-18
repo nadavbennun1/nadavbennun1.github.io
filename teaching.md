@@ -48,11 +48,6 @@ url: /teaching
   <div class="meta">2019</div>
 </div>
 
-<div class="card">
-  <h3>Data Analyst</h3>
-  <p>Israeli Intelligence Corps</p>
-  <div class="meta">2016 – 2018</div>
-</div>
 
 ## Awards
 

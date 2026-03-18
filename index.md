@@ -23,7 +23,7 @@ url: /
       I hold a BSc in Bioinformatics (<em>magna cum laude</em>) from Tel Aviv University.
     </p>
     <div class="social-links">
-      <a href="mailto:nadavbennun1@mail.tau.ac.il">Email</a>
+      <a href="#" onclick="navigator.clipboard.writeText('nadavbennun1@mail.tau.ac.il'); this.textContent='Copied!'; setTimeout(() => this.textContent='Email', 2000); return false;">Email</a>
       <a href="https://www.yoavram.com" target="_blank">Ram Lab</a>
       <!-- Uncomment and fill in:
       <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a>
