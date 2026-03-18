@@ -1,0 +1,25 @@
+title: Nadav Ben Nun
+description: PhD Candidate | Simulation-Based Inference | Experimental Evolution
+url: "" # will be set to your GitHub Pages URL
+baseurl: "" # e.g., "/nadavbennun" if repo name differs
+
+# Build settings
+markdown: kramdown
+plugins: []
+
+# Site navigation (easy to add/remove pages)
+nav:
+  - title: About
+    url: /
+  - title: Research
+    url: /research
+  - title: Publications
+    url: /publications
+  - title: Teaching
+    url: /teaching
+
+# Social links
+email: nadavbennun1@mail.tau.ac.il
+google_scholar: # add your Google Scholar ID
+github: # add your GitHub username
+twitter: # add your Twitter/X handle if any
