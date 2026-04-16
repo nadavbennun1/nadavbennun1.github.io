@@ -38,17 +38,17 @@ url: /
   <div class="card interest-card">
     <div class="interest-icon">&#127837;</div>
     <h3>Cooking</h3>
-    <p>Passionate about cooking, especially Italian cuisine. Completed a pasta-making course in Italy.</p>
+    <p>Passionate about cooking, especially Italian cuisine — completed a pasta-making course in Italy</p>
   </div>
   <div class="card interest-card">
     <div class="interest-icon">&#127936;</div>
     <h3>Basketball</h3>
-    <p>Playing and watching — following the Euroleague and NBA.</p>
+    <p>Playing and watching — following the Euroleague and NBA</p>
   </div>
   <div class="card interest-card">
     <div class="interest-icon">&#127758;</div>
     <h3>Tel Aviv</h3>
-    <p>Living in Tel Aviv with my wife.</p>
+    <p>Living in Tel Aviv with my <a href="https://www.avivishere.co.il" target="_blank">wife</a></p>
   </div>
 </div>
 

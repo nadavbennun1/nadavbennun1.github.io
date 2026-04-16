@@ -20,9 +20,9 @@ url: /publications
   <li>
     <div class="pub-title">Segmental copy number amplifications are stable in the absence of selection</div>
     <div class="pub-authors">Titir De, <strong>Nadav Ben Nun</strong>, Pieter Spealman, Ina Suresh, Grace Avecilla, Farah Abdul-Rahman, Yoav Ram, and David Gresham</div>
-    <div class="pub-venue">2025. Under review.</div>
+    <div class="pub-venue">Molecular Biology and Evolution, 2025.</div>
     <div class="pub-links">
-      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12330549/" target="_blank">Paper</a>
+      <a href="https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msag095/8651694" target="_blank">Paper</a>
     </div>
   </li>
 
