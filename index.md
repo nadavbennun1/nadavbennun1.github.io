@@ -6,8 +6,7 @@ url: /
 
 <div class="hero">
   <!-- Replace with your photo: put it in assets/images/ and update the src -->
-  <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Nadav Ben Nun" class="hero-photo"
-       onerror="this.style.background='#e5e7eb'; this.alt='Add profile photo to assets/images/profile.jpg'">
+  <img src="{{ '/assets/images/profile.jpeg' | relative_url }}" alt="Nadav Ben Nun" class="hero-photo">
   <div class="hero-text">
     <h1>Nadav Ben Nun</h1>
     <p class="subtitle">PhD Candidate in Bioinformatics, Tel Aviv University</p>
