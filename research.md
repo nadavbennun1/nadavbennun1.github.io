@@ -55,8 +55,8 @@ permalink: /research/
         <li>Yeast</li>
       </ul>
       <div class="inline-links">
-        <a href="https://elifesciences.org/reviewed-preprints/98934" target="_blank" rel="noopener">eLife 2024 <span aria-hidden="true">↗</span></a>
-        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12330549/" target="_blank" rel="noopener">De et al. 2025 <span aria-hidden="true">↗</span></a>
+        <a href="https://doi.org/10.7554/eLife.98934.3" target="_blank" rel="noopener">Chuong et al., 2025 <span aria-hidden="true">↗</span></a>
+        <a href="https://academic.oup.com/mbe/article/43/4/msag095/8651694" target="_blank" rel="noopener">De et al., 2026 <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </article>
@@ -77,7 +77,7 @@ permalink: /research/
         <li>Neural posterior estimation</li>
         <li>Epistasis</li>
       </ul>
-      <a class="article-link" href="https://academic.oup.com/ve/article/9/1/vead033/7175026" target="_blank" rel="noopener">Virus Evolution 2023 <span aria-hidden="true">↗</span></a>
+      <a class="article-link" href="https://academic.oup.com/ve/article/9/1/vead033/7175026" target="_blank" rel="noopener">Caspi et al., 2023 <span aria-hidden="true">↗</span></a>
     </div>
   </article>
 

@@ -31,13 +31,13 @@ permalink: /publications/
   </li>
 
   <li class="publication">
-    <div class="pub-year">2025</div>
+    <div class="pub-year">2026</div>
     <div class="pub-record">
-      <div class="pub-title">Segmental copy number amplifications are stable in the absence of selection</div>
+      <div class="pub-title">Segmental copy number amplifications are more stable than aneuploidies in the absence of selection</div>
       <div class="pub-authors">Titir De, <strong>Nadav Ben Nun</strong>, Pieter Spealman, Ina Suresh, Grace Avecilla, Farah Abdul-Rahman, Yoav Ram, and David Gresham</div>
-      <div class="pub-venue">Molecular Biology and Evolution.</div>
+      <div class="pub-venue">Molecular Biology and Evolution, 43(4), msag095.</div>
       <div class="pub-links">
-        <a href="https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msag095/8651694" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+        <a href="https://academic.oup.com/mbe/article/43/4/msag095/8651694" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </li>
@@ -52,13 +52,13 @@ permalink: /publications/
   </li>
 
   <li class="publication">
-    <div class="pub-year">2024</div>
+    <div class="pub-year">2025</div>
     <div class="pub-record">
       <div class="pub-title">Template switching during DNA replication is a prevalent source of adaptive gene amplification</div>
-      <div class="pub-authors">Julie N Chuong, <strong>Nadav Ben Nun</strong>, Ina Suresh, Julia Matthews, Titir De, Grace Avecilla, Farah Abdul-Rahman, Nathan Brandt, Yoav Ram, and David Gresham</div>
+      <div class="pub-authors">Julie N Chuong, <strong>Nadav Ben Nun</strong>, Ina Suresh, Julia Cano Matthews, Titir De, Grace Avecilla, Farah Abdul-Rahman, Nathan Brandt, Yoav Ram, and David Gresham</div>
       <div class="pub-venue">eLife, 13:RP98934.</div>
       <div class="pub-links">
-        <a href="https://doi.org/10.7554/eLife.98934.1" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+        <a href="https://doi.org/10.7554/eLife.98934.3" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </li>

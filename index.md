@@ -89,7 +89,7 @@ permalink: /
       course in Italy. I also play basketball and follow the EuroLeague and NBA.
     </p>
     <p>
-      I live in Tel Aviv with my <a href="https://www.avivishere.co.il" target="_blank" rel="noopener">wife, Avivit</a>.
+      I live in Tel Aviv with my <a href="https://www.avivishere.co.il" target="_blank" rel="noopener">wife, Aviv</a>.
     </p>
   </div>
 </section>
