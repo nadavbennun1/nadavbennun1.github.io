@@ -7,7 +7,7 @@ permalink: /
 <section class="hero" aria-labelledby="hero-title">
   <div class="hero-copy">
     <p class="eyebrow">PhD candidate · Tel Aviv University</p>
-    <h1 id="hero-title">Nadav Ben Nun</h1>
+    <h1 id="hero-title"><span>Nadav</span> <span>Ben Nun</span></h1>
     <p class="hero-lede">
       I develop simulation-based inference methods for experimental evolution.
     </p>
