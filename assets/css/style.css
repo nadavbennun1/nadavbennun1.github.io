@@ -244,16 +244,6 @@ h1, h2, h3 { text-wrap: balance; }
   border-bottom: 1px solid var(--line);
 }
 
-.hero::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 28%;
-  height: 8px;
-  background: var(--teal);
-}
-
 .hero-copy { position: relative; z-index: 1; min-width: 0; }
 
 .hero-copy h1 {
@@ -315,9 +305,9 @@ h1, h2, h3 { text-wrap: balance; }
 .feature-section .article-link:hover { color: var(--gold); }
 
 .profile-section { padding-inline: 0; }
-.profile-facts { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.profile-facts div { min-height: 9rem; padding: 1.4rem 1.4rem 1.4rem 0; border-top: 5px solid var(--wine); }
-.profile-facts .education-fact { grid-column: 1 / -1; min-height: 0; padding-right: 0; }
+.profile-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(2rem, 6vw, 5rem); border-top: 5px solid var(--wine); border-bottom: 1px solid var(--line); }
+.profile-facts div { min-height: 9rem; padding: 1.4rem 0; }
+.profile-facts .education-fact { grid-column: 1 / -1; min-height: 0; padding-right: 0; border-top: 5px solid var(--wine); }
 .profile-facts dt { margin-bottom: 1.25rem; color: var(--muted); font-size: 0.63rem; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; }
 .profile-facts dd { font-size: 0.98rem; font-weight: 700; line-height: 1.5; }
 .education-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; padding: 0; list-style: none; }
@@ -325,7 +315,7 @@ h1, h2, h3 { text-wrap: balance; }
 .education-list span { color: var(--muted); font-size: 0.78rem; font-weight: 500; line-height: 1.45; }
 
 .elsewhere-section { background: var(--sage); border-left: 8px solid var(--teal); }
-.elsewhere-content { display: grid; grid-template-columns: minmax(0, 1fr) minmax(13rem, 0.48fr); gap: clamp(2rem, 6vw, 5rem); align-items: center; }
+.elsewhere-content { display: grid; grid-template-columns: minmax(0, 1fr) minmax(13rem, 0.48fr); gap: clamp(2rem, 6vw, 5rem); align-items: start; }
 .elsewhere-copy { display: grid; gap: 1.4rem; color: #34423f; font-size: 1rem; font-weight: 600; line-height: 1.65; }
 .personal-photo { justify-self: end; width: min(100%, 17rem); }
 .personal-photo img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border: 6px solid var(--wine); }
