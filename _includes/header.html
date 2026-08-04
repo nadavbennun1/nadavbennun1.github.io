@@ -26,35 +26,45 @@
     this.setAttribute('aria-expanded', isOpen);
   });
 
-  document.querySelectorAll('[data-copy-email]').forEach(function (button) {
-    button.addEventListener('click', async function () {
-      const email = this.dataset.copyEmail;
-      const label = this.querySelector('[data-copy-label]');
-      let copied = false;
-
+  async function copyEmail(email) {
+    if (navigator.clipboard && window.isSecureContext) {
       try {
         await navigator.clipboard.writeText(email);
-        copied = true;
+        return;
       } catch (error) {
-        const fallback = document.createElement('textarea');
-        fallback.value = email;
-        fallback.setAttribute('readonly', '');
-        fallback.style.position = 'fixed';
-        fallback.style.opacity = '0';
-        document.body.appendChild(fallback);
-        fallback.select();
-        copied = document.execCommand('copy');
-        fallback.remove();
+        // Some browsers expose the Clipboard API but block it; use the legacy fallback.
       }
+    }
 
-      if (copied) {
-        label.textContent = 'Copied!';
-        this.classList.add('is-copied');
-        window.setTimeout(() => {
-          label.textContent = 'Email';
-          this.classList.remove('is-copied');
-        }, 2000);
-      }
-    });
+    const fallback = document.createElement('textarea');
+    fallback.value = email;
+    fallback.setAttribute('readonly', '');
+    fallback.style.position = 'fixed';
+    fallback.style.left = '-9999px';
+    document.body.appendChild(fallback);
+    fallback.select();
+    const copied = document.execCommand('copy');
+    fallback.remove();
+
+    if (!copied) throw new Error('Copy command failed');
+  }
+
+  document.addEventListener('click', async function (event) {
+    const button = event.target.closest('[data-copy-email]');
+    if (!button) return;
+
+    const label = button.querySelector('[data-copy-label]');
+
+    try {
+      await copyEmail(button.dataset.copyEmail);
+      label.textContent = 'Copied!';
+      button.classList.add('is-copied');
+      window.setTimeout(function () {
+        label.textContent = 'Email';
+        button.classList.remove('is-copied');
+      }, 2000);
+    } catch (error) {
+      label.textContent = 'Copy failed';
+    }
   });
 </script>

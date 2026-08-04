@@ -58,7 +58,7 @@ permalink: /teaching/
 
 <div class="timeline">
   <div class="timeline-item">
-    <div class="timeline-date">2023</div>
+    <div class="timeline-date">2023—2028</div>
     <div class="timeline-title">Research Scholarship</div>
     <div class="timeline-desc">TAU Center for AI & Data Science (TAD)</div>
   </div>

@@ -39,6 +39,47 @@ permalink: /research/
   <article class="project">
     <div class="project-number">02</div>
     <div class="project-body">
+      <h2>Posterior ensembles under fixed compute</h2>
+      <p class="project-kicker">Methods · Ongoing work</p>
+      <p>
+        I study whether ensembles of neural posterior estimators improve inference because
+        of model averaging itself or simply because they use more training compute. Across
+        a diverse set of simulation models, compute-matched ensembles reveal a trade-off:
+        they produce wider posteriors and better coverage, but generally poorer point
+        estimates and proper scores. The work separates the effects of ensembling from the
+        effects of additional computation.
+      </p>
+      <ul class="keyword-list" aria-label="Research themes">
+        <li>Posterior ensembles</li>
+        <li>Calibration</li>
+        <li>Compute allocation</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="project">
+    <div class="project-number">03</div>
+    <div class="project-body">
+      <h2>Bayesian experimental design for evolution experiments</h2>
+      <p class="project-kicker">Methods · Research prototype</p>
+      <p>
+        I am developing a framework for deciding when and how deeply to sample microbial
+        evolution experiments, both before an experiment begins and as data arrive. It
+        combines mechanistic simulation, design-conditioned inference, and expected
+        information gain to compare sampling schedules while accounting for experimental
+        constraints and limited resources.
+      </p>
+      <ul class="keyword-list" aria-label="Research themes">
+        <li>Experimental design</li>
+        <li>Expected information gain</li>
+        <li>Adaptive experiments</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="project">
+    <div class="project-number">04</div>
+    <div class="project-body">
       <h2>Copy-number variation in yeast evolution</h2>
       <p class="project-kicker">Collaboration · Gresham Lab, NYU</p>
       <p>
@@ -60,7 +101,7 @@ permalink: /research/
   </article>
 
   <article class="project">
-    <div class="project-number">03</div>
+    <div class="project-number">05</div>
     <div class="project-body">
       <h2>RNA-virus evolution</h2>
       <p class="project-kicker">Application · Viral evolution</p>
@@ -80,7 +121,7 @@ permalink: /research/
   </article>
 
   <article class="project compact-project">
-    <div class="project-number">04</div>
+    <div class="project-number">06</div>
     <div class="project-body">
       <h2>Practical guidelines for SBI</h2>
       <p class="project-kicker">Open methods</p>
@@ -92,7 +133,7 @@ permalink: /research/
   </article>
 
   <article class="project compact-project">
-    <div class="project-number">05</div>
+    <div class="project-number">07</div>
     <div class="project-body">
       <h2>SBI for microbial growth</h2>
       <p class="project-kicker">Current direction</p>

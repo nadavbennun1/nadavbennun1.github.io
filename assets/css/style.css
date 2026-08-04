@@ -282,15 +282,7 @@ h1, h2, h3 { text-wrap: balance; }
   font-size: 0.95rem;
 }
 
-.portrait { position: relative; padding: 0 1rem 1rem 0; }
-
-.portrait::before {
-  content: "";
-  position: absolute;
-  inset: 1.2rem 0 0 1.2rem;
-  z-index: 0;
-  background: var(--sage);
-}
+.portrait { position: relative; }
 
 .portrait-frame {
   position: relative;
@@ -324,9 +316,8 @@ h1, h2, h3 { text-wrap: balance; }
 
 .profile-section { padding-inline: 0; }
 .profile-facts { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.profile-facts div { min-height: 9rem; padding: 1.4rem 1.4rem 1.4rem 0; border-right: 1px solid var(--line); border-top: 5px solid var(--wine); }
-.profile-facts div:nth-child(2) { border-top-color: var(--teal); border-right: 0; }
-.profile-facts .education-fact { grid-column: 1 / -1; min-height: 0; padding-right: 0; border-top-color: var(--gold); border-right: 0; }
+.profile-facts div { min-height: 9rem; padding: 1.4rem 1.4rem 1.4rem 0; border-top: 5px solid var(--wine); }
+.profile-facts .education-fact { grid-column: 1 / -1; min-height: 0; padding-right: 0; }
 .profile-facts dt { margin-bottom: 1.25rem; color: var(--muted); font-size: 0.63rem; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; }
 .profile-facts dd { font-size: 0.98rem; font-weight: 700; line-height: 1.5; }
 .education-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; padding: 0; list-style: none; }
@@ -335,6 +326,9 @@ h1, h2, h3 { text-wrap: balance; }
 
 .elsewhere-section { background: var(--sage); border-left: 8px solid var(--teal); }
 .elsewhere-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem clamp(2rem, 7vw, 6rem); color: #34423f; font-size: 1rem; font-weight: 600; line-height: 1.65; }
+
+.hero .text-links a,
+.hero .text-links button { font-size: 0.9rem; }
 
 /* Inner pages */
 .page-intro {

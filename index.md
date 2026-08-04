@@ -82,8 +82,8 @@ permalink: /
   </div>
   <div class="elsewhere-copy">
     <p>
-      Away from research, I cook—especially Italian food—and completed a pasta-making
-      course in Italy. I also play basketball and follow the EuroLeague and NBA.
+      Outside the lab, I enjoy cooking, especially Italian food, and I took a pasta-making
+      course in Italy. I also play basketball and follow both the EuroLeague and the NBA.
     </p>
     <p>
       I live in Tel Aviv with my <a href="https://www.avivishere.co.il" target="_blank" rel="noopener">wife, Aviv</a>.
