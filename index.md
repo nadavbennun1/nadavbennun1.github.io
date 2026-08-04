@@ -80,13 +80,18 @@ permalink: /
   <div class="section-heading">
     <h2 id="elsewhere-title">A little more about me</h2>
   </div>
-  <div class="elsewhere-copy">
-    <p>
-      Outside the lab, I enjoy cooking, especially Italian food, and I took a pasta-making
-      course in Italy. I also play basketball and follow both the EuroLeague and the NBA.
-    </p>
-    <p>
-      I live in Tel Aviv with my <a href="https://www.avivishere.co.il" target="_blank" rel="noopener">wife, Aviv</a>.
-    </p>
+  <div class="elsewhere-content">
+    <div class="elsewhere-copy">
+      <p>
+        Outside the lab, I enjoy cooking, especially Italian food, and I took a pasta-making
+        course in Italy. I also play basketball and follow both the EuroLeague and the NBA.
+      </p>
+      <p>
+        I live in Tel Aviv with my <a href="https://www.avivishere.co.il" target="_blank" rel="noopener">wife, Aviv</a>.
+      </p>
+    </div>
+    <figure class="personal-photo">
+      <img src="{{ '/assets/images/fc7d2075-94b6-4c8e-9cf5-d803edd12cd5.JPG' | relative_url }}" alt="Nadav Ben Nun with Aviv">
+    </figure>
   </div>
 </section>

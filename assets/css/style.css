@@ -325,7 +325,10 @@ h1, h2, h3 { text-wrap: balance; }
 .education-list span { color: var(--muted); font-size: 0.78rem; font-weight: 500; line-height: 1.45; }
 
 .elsewhere-section { background: var(--sage); border-left: 8px solid var(--teal); }
-.elsewhere-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem clamp(2rem, 7vw, 6rem); color: #34423f; font-size: 1rem; font-weight: 600; line-height: 1.65; }
+.elsewhere-content { display: grid; grid-template-columns: minmax(0, 1fr) minmax(13rem, 0.48fr); gap: clamp(2rem, 6vw, 5rem); align-items: center; }
+.elsewhere-copy { display: grid; gap: 1.4rem; color: #34423f; font-size: 1rem; font-weight: 600; line-height: 1.65; }
+.personal-photo { justify-self: end; width: min(100%, 17rem); }
+.personal-photo img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border: 6px solid var(--wine); }
 
 .hero .text-links a,
 .hero .text-links button { font-size: 0.9rem; }
@@ -469,7 +472,8 @@ h1, h2, h3 { text-wrap: balance; }
   .elsewhere-section { padding: 2rem 1.25rem; }
   .section-heading,
   .featured-work,
-  .elsewhere-copy { grid-template-columns: 1fr; gap: 0.65rem; }
+  .elsewhere-content { grid-template-columns: 1fr; gap: 1.75rem; }
+  .personal-photo { justify-self: start; width: min(82%, 18rem); }
   .profile-facts,
   .education-list { grid-template-columns: 1fr; }
   .profile-facts div { min-height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
