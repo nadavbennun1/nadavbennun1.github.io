@@ -1,5 +1,5 @@
 title: Nadav Ben Nun
-description: PhD Candidate | Simulation-Based Inference | Experimental Evolution
+description: Computational evolutionary biologist developing simulation-based inference methods for experimental evolution.
 url: "" # will be set to your GitHub Pages URL
 baseurl: "" # e.g., "/nadavbennun" if repo name differs
 
@@ -12,11 +12,11 @@ nav:
   - title: About
     url: /
   - title: Research
-    url: /research
+    url: /research/
   - title: Publications
-    url: /publications
+    url: /publications/
   - title: Teaching
-    url: /teaching
+    url: /teaching/
 
 # Social links
 email: nadavbennun1@mail.tau.ac.il

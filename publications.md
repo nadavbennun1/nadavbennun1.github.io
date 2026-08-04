@@ -1,67 +1,99 @@
 ---
 layout: default
 title: Publications
-url: /publications
+permalink: /publications/
 ---
 
-## Publications
+<header class="page-intro page-intro-compact">
+  <p class="eyebrow">Research record</p>
+  <h1>Publications &<br><em>presentations.</em></h1>
+  <p class="page-deck">Peer-reviewed work and preprints spanning statistical inference, experimental evolution, and genetics.</p>
+</header>
+
+<section class="publication-section" aria-labelledby="publications-title">
+<div class="section-label-row">
+  <h2 id="publications-title">Publications</h2>
+  <span>Selected research</span>
+</div>
 
 <ul class="pub-list">
-
-  <li>
-    <div class="pub-title">Collective posterior inference from highly variable empirical replicates</div>
-    <div class="pub-authors"><strong>Nadav Ben Nun</strong> and Yoav Ram</div>
-    <div class="pub-venue">bioRxiv, 2026. Under review.</div>
-    <div class="pub-links">
-      <a href="https://www.biorxiv.org/content/10.64898/2026.01.26.701673v1" target="_blank">Preprint</a>
+  <li class="publication accepted-publication">
+    <div class="pub-year">2026</div>
+    <div class="pub-record">
+      <p class="publication-status">Accepted · publication forthcoming</p>
+      <div class="pub-title">Collective posterior inference from highly variable empirical replicates</div>
+      <div class="pub-authors"><strong>Nadav Ben Nun</strong> and Yoav Ram</div>
+      <div class="pub-venue">PLOS Computational Biology.</div>
+      <div class="pub-links">
+        <a href="https://www.biorxiv.org/content/10.64898/2026.01.26.701673v1" target="_blank" rel="noopener">Preprint <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </li>
 
-  <li>
-    <div class="pub-title">Segmental copy number amplifications are stable in the absence of selection</div>
-    <div class="pub-authors">Titir De, <strong>Nadav Ben Nun</strong>, Pieter Spealman, Ina Suresh, Grace Avecilla, Farah Abdul-Rahman, Yoav Ram, and David Gresham</div>
-    <div class="pub-venue">Molecular Biology and Evolution, 2025.</div>
-    <div class="pub-links">
-      <a href="https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msag095/8651694" target="_blank">Paper</a>
+  <li class="publication">
+    <div class="pub-year">2025</div>
+    <div class="pub-record">
+      <div class="pub-title">Segmental copy number amplifications are stable in the absence of selection</div>
+      <div class="pub-authors">Titir De, <strong>Nadav Ben Nun</strong>, Pieter Spealman, Ina Suresh, Grace Avecilla, Farah Abdul-Rahman, Yoav Ram, and David Gresham</div>
+      <div class="pub-venue">Molecular Biology and Evolution.</div>
+      <div class="pub-links">
+        <a href="https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msag095/8651694" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </li>
 
-  <li>
-    <div class="pub-title">Transmission of human handedness: a reanalysis</div>
-    <div class="pub-authors">Rony Karstadt, Chloe Shiff, Tomer Oron, <strong>Nadav Ben Nun</strong>, and Yoav Ram</div>
-    <div class="pub-venue">2025. Under review.</div>
-  </li>
-
-  <li>
-    <div class="pub-title">Template switching during DNA replication is a prevalent source of adaptive gene amplification</div>
-    <div class="pub-authors">Julie N Chuong, <strong>Nadav Ben Nun</strong>, Ina Suresh, Julia Matthews, Titir De, Grace Avecilla, Farah Abdul-Rahman, Nathan Brandt, Yoav Ram, and David Gresham</div>
-    <div class="pub-venue">eLife, 13:RP98934, 2024.</div>
-    <div class="pub-links">
-      <a href="https://doi.org/10.7554/eLife.98934.1" target="_blank">Paper</a>
+  <li class="publication">
+    <div class="pub-year">2025</div>
+    <div class="pub-record">
+      <div class="pub-title">Transmission of human handedness: a reanalysis</div>
+      <div class="pub-authors">Rony Karstadt, Chloe Shiff, Tomer Oron, <strong>Nadav Ben Nun</strong>, and Yoav Ram</div>
+      <div class="pub-venue">Manuscript under review.</div>
     </div>
   </li>
 
-  <li>
-    <div class="pub-title">Mutation rate, selection, and epistasis inferred from RNA virus haplotypes via neural posterior estimation</div>
-    <div class="pub-authors">Itamar Caspi, Moran Meir, <strong>Nadav Ben Nun</strong>, Reem Abu Rass, Uri Yakhini, Adi Stern, and Yoav Ram</div>
-    <div class="pub-venue">Virus Evolution, 9(1), vead033, 2023.</div>
-    <div class="pub-links">
-      <a href="https://academic.oup.com/ve/article/9/1/vead033/7175026" target="_blank">Paper</a>
+  <li class="publication">
+    <div class="pub-year">2024</div>
+    <div class="pub-record">
+      <div class="pub-title">Template switching during DNA replication is a prevalent source of adaptive gene amplification</div>
+      <div class="pub-authors">Julie N Chuong, <strong>Nadav Ben Nun</strong>, Ina Suresh, Julia Matthews, Titir De, Grace Avecilla, Farah Abdul-Rahman, Nathan Brandt, Yoav Ram, and David Gresham</div>
+      <div class="pub-venue">eLife, 13:RP98934.</div>
+      <div class="pub-links">
+        <a href="https://doi.org/10.7554/eLife.98934.1" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </li>
 
-  <li>
-    <div class="pub-title">Unraveling the Host Genetic Background Effect on Internal Organ Weight Influenced by Obesity and Diabetes Using Collaborative Cross Mice</div>
-    <div class="pub-authors">Aya Ghnaim, Iqbal Mohammed Lone, <strong>Nadav Ben Nun</strong>, and Fuad A. Iraqi</div>
-    <div class="pub-venue">International Journal of Molecular Sciences, 24(9), 8201, 2023.</div>
-    <div class="pub-links">
-      <a href="https://www.mdpi.com/1422-0067/24/9/8201" target="_blank">Paper</a>
+  <li class="publication">
+    <div class="pub-year">2023</div>
+    <div class="pub-record">
+      <div class="pub-title">Mutation rate, selection, and epistasis inferred from RNA virus haplotypes via neural posterior estimation</div>
+      <div class="pub-authors">Itamar Caspi, Moran Meir, <strong>Nadav Ben Nun</strong>, Reem Abu Rass, Uri Yakhini, Adi Stern, and Yoav Ram</div>
+      <div class="pub-venue">Virus Evolution, 9(1), vead033.</div>
+      <div class="pub-links">
+        <a href="https://academic.oup.com/ve/article/9/1/vead033/7175026" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </li>
 
+  <li class="publication">
+    <div class="pub-year">2023</div>
+    <div class="pub-record">
+      <div class="pub-title">Unraveling the host genetic background effect on internal organ weight influenced by obesity and diabetes using Collaborative Cross mice</div>
+      <div class="pub-authors">Aya Ghnaim, Iqbal Mohammed Lone, <strong>Nadav Ben Nun</strong>, and Fuad A. Iraqi</div>
+      <div class="pub-venue">International Journal of Molecular Sciences, 24(9), 8201.</div>
+      <div class="pub-links">
+        <a href="https://www.mdpi.com/1422-0067/24/9/8201" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </li>
 </ul>
+</section>
 
-## Conference Presentations
+<section class="presentation-section" aria-labelledby="presentations-title">
+<div class="section-label-row">
+  <h2 id="presentations-title">Conference presentations</h2>
+  <span>2023—2025</span>
+</div>
 
 <div class="timeline">
   <div class="timeline-item">
@@ -100,3 +132,4 @@ url: /publications
     <div class="timeline-desc">Poster: Inference of CNV rate and fitness effect from yeast evolutionary experiments</div>
   </div>
 </div>
+</section>

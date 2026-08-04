@@ -1,21 +1,28 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
-    <nav class="site-nav">
+    <a href="{{ '/' | relative_url }}" class="site-title" aria-label="{{ site.title }}, home">
+      <span class="site-monogram" aria-hidden="true">NBN</span>
+      <span class="site-name">{{ site.title }}</span>
+    </a>
+    <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
       {% for item in site.nav %}
-        <a href="{{ item.url | relative_url }}" class="nav-link {% if page.url == item.url %}active{% endif %}">
-          {{ item.title }}
+        <a href="{{ item.url | relative_url }}" class="nav-link {% if page.title == item.title %}active{% endif %}" {% if page.title == item.title %}aria-current="page"{% endif %}>
+          <span class="nav-index">0{{ forloop.index }}</span>{{ item.title }}
         </a>
       {% endfor %}
     </nav>
-    <button class="nav-toggle" aria-label="Toggle navigation">
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="site-navigation" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </div>
 </header>
 <script>
-  document.querySelector('.nav-toggle').addEventListener('click', function() {
-    document.querySelector('.site-nav').classList.toggle('open');
-    this.classList.toggle('open');
+  const navToggle = document.querySelector('.nav-toggle');
+  const siteNav = document.querySelector('.site-nav');
+
+  navToggle.addEventListener('click', function () {
+    const isOpen = siteNav.classList.toggle('open');
+    this.classList.toggle('open', isOpen);
+    this.setAttribute('aria-expanded', isOpen);
   });
 </script>
