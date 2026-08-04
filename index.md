@@ -6,17 +6,16 @@ permalink: /
 
 <section class="hero" aria-labelledby="hero-title">
   <div class="hero-copy">
-    <p class="eyebrow">Computational evolutionary biology</p>
-    <h1 id="hero-title">Nadav<br>Ben Nun</h1>
+    <p class="eyebrow">PhD candidate · Tel Aviv University</p>
+    <h1 id="hero-title">Nadav Ben Nun</h1>
     <p class="hero-lede">
-      I develop statistical methods for learning from evolution experiments—where
-      biological variation is signal, not simply noise.
+      I develop simulation-based inference methods for experimental evolution.
     </p>
     <p class="hero-bio">
-      I am a PhD candidate in Bioinformatics at the
+      At the
       <a href="https://www.yoavram.com" target="_blank" rel="noopener">Ram Lab</a>,
-      Tel Aviv University. My work combines simulation-based inference, Bayesian
-      statistics, neural networks, and evolutionary simulations.
+      I combine Bayesian statistics, neural networks, and evolutionary simulations
+      to infer biological parameters from complex experimental data.
     </p>
     <div class="text-links" aria-label="Profile links">
       <a href="mailto:nadavbennun1@mail.tau.ac.il">Email <span aria-hidden="true">↗</span></a>
@@ -36,8 +35,8 @@ permalink: /
 
 <section class="feature-section" aria-labelledby="featured-work-title">
   <div class="section-heading">
-    <p class="section-index">01 / Featured work</p>
-    <h2 id="featured-work-title">The collective posterior</h2>
+    <p class="section-index">Selected work</p>
+    <h2 id="featured-work-title">Collective posterior inference</h2>
   </div>
   <article class="featured-work">
     <div class="feature-meta">
@@ -46,11 +45,11 @@ permalink: /
       <p>Publication forthcoming</p>
     </div>
     <div class="feature-copy">
-      <h3>Inference from highly variable empirical replicates</h3>
+      <h3>Combining information across highly variable empirical replicates</h3>
       <p>
-        A robust method for combining information across experimental replicates. The
-        collective posterior learns from shared structure while reducing the influence
-        of outliers—making simulation-based inference more reliable for noisy biological data.
+        We introduce a robust product-of-experts method that combines replicate-level
+        posteriors while limiting the influence of outliers. The paper has been accepted
+        at PLOS Computational Biology and is awaiting production.
       </p>
       <a class="article-link" href="https://www.biorxiv.org/content/10.64898/2026.01.26.701673v1" target="_blank" rel="noopener">Read the preprint <span aria-hidden="true">↗</span></a>
     </div>
@@ -59,8 +58,8 @@ permalink: /
 
 <section class="profile-section" aria-labelledby="profile-title">
   <div class="section-heading">
-    <p class="section-index">02 / Profile</p>
-    <h2 id="profile-title">At a glance</h2>
+    <p class="section-index">Research profile</p>
+    <h2 id="profile-title">Focus and background</h2>
   </div>
   <dl class="profile-facts">
     <div>
@@ -80,8 +79,8 @@ permalink: /
 
 <section class="elsewhere-section" aria-labelledby="elsewhere-title">
   <div class="section-heading">
-    <p class="section-index">03 / Elsewhere</p>
-    <h2 id="elsewhere-title">Beyond the desk</h2>
+    <p class="section-index">Outside research</p>
+    <h2 id="elsewhere-title">A little more about me</h2>
   </div>
   <div class="elsewhere-copy">
     <p>

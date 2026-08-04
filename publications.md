@@ -6,8 +6,8 @@ permalink: /publications/
 
 <header class="page-intro page-intro-compact">
   <p class="eyebrow">Research record</p>
-  <h1>Publications &<br><em>presentations.</em></h1>
-  <p class="page-deck">Peer-reviewed work and preprints spanning statistical inference, experimental evolution, and genetics.</p>
+  <h1>Publications</h1>
+  <p class="page-deck">Peer-reviewed work and preprints in statistical inference, experimental evolution, and genetics.</p>
 </header>
 
 <section class="publication-section" aria-labelledby="publications-title">

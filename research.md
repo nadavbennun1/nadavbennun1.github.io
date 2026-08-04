@@ -6,11 +6,10 @@ permalink: /research/
 
 <header class="page-intro">
   <p class="eyebrow">Research programme</p>
-  <h1>Making variation<br><em>informative.</em></h1>
+  <h1>Research</h1>
   <p class="page-deck">
-    I develop and apply simulation-based inference methods for experimental evolution,
-    combining stochastic simulation, Bayesian statistics, and deep learning to extract
-    biological insight from complex data.
+    My work develops and applies simulation-based inference methods for experimental
+    evolution, using stochastic simulation, Bayesian statistics, and deep learning.
   </p>
 </header>
 
