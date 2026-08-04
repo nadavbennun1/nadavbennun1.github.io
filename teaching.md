@@ -5,7 +5,6 @@ permalink: /teaching/
 ---
 
 <header class="page-intro page-intro-compact">
-  <p class="eyebrow">Academic practice</p>
   <h1>Teaching & experience</h1>
   <p class="page-deck">Teaching mathematics and evolutionary biology across university and pre-university programmes.</p>
 </header>

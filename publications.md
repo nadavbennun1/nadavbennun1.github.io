@@ -5,7 +5,6 @@ permalink: /publications/
 ---
 
 <header class="page-intro page-intro-compact">
-  <p class="eyebrow">Research record</p>
   <h1>Publications</h1>
   <p class="page-deck">Peer-reviewed work and preprints in statistical inference, experimental evolution, and genetics.</p>
 </header>
@@ -20,8 +19,8 @@ permalink: /publications/
   <li class="publication accepted-publication">
     <div class="pub-year">2026</div>
     <div class="pub-record">
-      <p class="publication-status">Accepted · publication forthcoming</p>
       <div class="pub-title">Collective posterior inference from highly variable empirical replicates</div>
+      <p class="publication-status">Accepted · publication forthcoming</p>
       <div class="pub-authors"><strong>Nadav Ben Nun</strong> and Yoav Ram</div>
       <div class="pub-venue">PLOS Computational Biology.</div>
       <div class="pub-links">
@@ -43,11 +42,14 @@ permalink: /publications/
   </li>
 
   <li class="publication">
-    <div class="pub-year">2025</div>
+    <div class="pub-year">2026</div>
     <div class="pub-record">
       <div class="pub-title">Transmission of human handedness: a reanalysis</div>
       <div class="pub-authors">Rony Karstadt, Chloe Shiff, Tomer Oron, <strong>Nadav Ben Nun</strong>, and Yoav Ram</div>
-      <div class="pub-venue">Manuscript under review.</div>
+      <div class="pub-venue">Evolutionary Human Sciences, 8, e8.</div>
+      <div class="pub-links">
+        <a href="https://doi.org/10.1017/ehs.2026.10038" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </li>
 
@@ -92,10 +94,20 @@ permalink: /publications/
 <section class="presentation-section" aria-labelledby="presentations-title">
 <div class="section-label-row">
   <h2 id="presentations-title">Conference presentations</h2>
-  <span>2023—2025</span>
+  <span>2023—2026</span>
 </div>
 
 <div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-date">May 2026</div>
+    <div class="timeline-title">Edmond J. Safra Center for Bioinformatics yearly retreat, Ma'ale HaHamisha</div>
+    <div class="timeline-desc">Talk: Inferring a Collective Posterior Distribution from Highly Variable Experimental Replicates</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">Feb 2026</div>
+    <div class="timeline-title">ISEB annual meeting, Ben-Gurion University, Beer-Sheva</div>
+    <div class="timeline-desc">Poster: Segmental copy number amplifications are stable in the absence of selection</div>
+  </div>
   <div class="timeline-item">
     <div class="timeline-date">May 2025</div>
     <div class="timeline-title">BioInference, Bardonecchia, Italy</div>

@@ -5,7 +5,6 @@ permalink: /research/
 ---
 
 <header class="page-intro">
-  <p class="eyebrow">Research programme</p>
   <h1>Research</h1>
   <p class="page-deck">
     My work develops and applies simulation-based inference methods for experimental
@@ -17,8 +16,8 @@ permalink: /research/
   <article class="project featured-project">
     <div class="project-number">01</div>
     <div class="project-body">
-      <p class="project-kicker">Methods · Accepted at PLOS Computational Biology</p>
       <h2>The collective posterior</h2>
+      <p class="project-kicker">Methods · Accepted at PLOS Computational Biology</p>
       <h3>Inferring parameters from highly variable empirical replicates</h3>
       <p>
         High-throughput experimental evolution generates many independent replicates, each producing
@@ -40,8 +39,8 @@ permalink: /research/
   <article class="project">
     <div class="project-number">02</div>
     <div class="project-body">
-      <p class="project-kicker">Collaboration · Gresham Lab, NYU</p>
       <h2>Copy-number variation in yeast evolution</h2>
+      <p class="project-kicker">Collaboration · Gresham Lab, NYU</p>
       <p>
         I apply SBI to study the evolutionary dynamics of copy-number variants in yeast.
         Our work indicates that DNA template switching during replication (ODIRA) is a
@@ -63,8 +62,8 @@ permalink: /research/
   <article class="project">
     <div class="project-number">03</div>
     <div class="project-body">
-      <p class="project-kicker">Application · Viral evolution</p>
       <h2>RNA-virus evolution</h2>
+      <p class="project-kicker">Application · Viral evolution</p>
       <p>
         Using neural posterior estimation, we inferred mutation rates, selection coefficients,
         and epistatic interactions from RNA-virus haplotype data. This work shows how SBI can
@@ -83,8 +82,8 @@ permalink: /research/
   <article class="project compact-project">
     <div class="project-number">04</div>
     <div class="project-body">
-      <p class="project-kicker">Open methods</p>
       <h2>Practical guidelines for SBI</h2>
+      <p class="project-kicker">Open methods</p>
       <p>
         Tutorials, benchmarks, and practical guidance intended to make simulation-based
         inference accessible to experimentalists working across common evolution study designs.
@@ -95,8 +94,8 @@ permalink: /research/
   <article class="project compact-project">
     <div class="project-number">05</div>
     <div class="project-body">
-      <p class="project-kicker">Current direction</p>
       <h2>SBI for microbial growth</h2>
+      <p class="project-kicker">Current direction</p>
       <p>
         Extending SBI methods to infer parameters from microbial growth dynamics, bridging
         evolutionary and ecological modelling.

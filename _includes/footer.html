@@ -5,7 +5,7 @@
       <p>Computational evolutionary biology · Tel Aviv</p>
     </div>
     <div class="footer-links" aria-label="Contact links">
-      {% if site.email %}<a href="mailto:{{ site.email }}">Email <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if site.email %}<button type="button" class="copy-email" data-copy-email="{{ site.email }}"><span data-copy-label aria-live="polite">Email</span></button>{% endif %}
       {% if site.google_scholar %}<a href="https://scholar.google.com/citations?user={{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>{% endif %}
       {% if site.github %}<a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>{% endif %}
     </div>

@@ -6,7 +6,6 @@ permalink: /
 
 <section class="hero" aria-labelledby="hero-title">
   <div class="hero-copy">
-    <p class="eyebrow">PhD candidate · Tel Aviv University</p>
     <h1 id="hero-title"><span>Nadav</span> <span>Ben Nun</span></h1>
     <p class="hero-lede">
       I develop simulation-based inference methods for experimental evolution.
@@ -18,7 +17,7 @@ permalink: /
       to infer biological parameters from complex experimental data.
     </p>
     <div class="text-links" aria-label="Profile links">
-      <a href="mailto:nadavbennun1@mail.tau.ac.il">Email <span aria-hidden="true">↗</span></a>
+      <button type="button" class="copy-email" data-copy-email="nadavbennun1@mail.tau.ac.il"><span data-copy-label aria-live="polite">Email</span></button>
       <a href="{{ '/research/' | relative_url }}">Explore research <span aria-hidden="true">→</span></a>
     </div>
   </div>
@@ -26,16 +25,11 @@ permalink: /
     <div class="portrait-frame">
       <img src="{{ '/assets/images/profile.jpeg' | relative_url }}" alt="Portrait of Nadav Ben Nun">
     </div>
-    <figcaption>
-      <span>PhD candidate</span>
-      <span>Tel Aviv University</span>
-    </figcaption>
   </figure>
 </section>
 
 <section class="feature-section" aria-labelledby="featured-work-title">
   <div class="section-heading">
-    <p class="section-index">Selected work</p>
     <h2 id="featured-work-title">Collective posterior inference</h2>
   </div>
   <article class="featured-work">
@@ -58,7 +52,6 @@ permalink: /
 
 <section class="profile-section" aria-labelledby="profile-title">
   <div class="section-heading">
-    <p class="section-index">Research profile</p>
     <h2 id="profile-title">Focus and background</h2>
   </div>
   <dl class="profile-facts">
@@ -70,16 +63,21 @@ permalink: /
       <dt>Affiliation</dt>
       <dd>School of Zoology<br>Tel Aviv University</dd>
     </div>
-    <div>
+    <div class="education-fact">
       <dt>Education</dt>
-      <dd>BSc Bioinformatics<br><em>magna cum laude</em></dd>
+      <dd>
+        <ul class="education-list">
+          <li><strong>PhD candidate in Bioinformatics</strong><span>Direct PhD track, Tel Aviv University</span></li>
+          <li><strong>MSc in Bioinformatics</strong><span>Non-thesis degree completed during the direct PhD track</span></li>
+          <li><strong>BSc in Bioinformatics</strong><span><em>magna cum laude</em>, Tel Aviv University</span></li>
+        </ul>
+      </dd>
     </div>
   </dl>
 </section>
 
 <section class="elsewhere-section" aria-labelledby="elsewhere-title">
   <div class="section-heading">
-    <p class="section-index">Outside research</p>
     <h2 id="elsewhere-title">A little more about me</h2>
   </div>
   <div class="elsewhere-copy">
